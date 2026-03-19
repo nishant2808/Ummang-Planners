@@ -73,7 +73,7 @@ window.addEventListener('scroll', () => {
   flatpickr("#field_date", {
     dateFormat: "d-m-Y",
     minDate: "today",
-    disableMobile: false
+    disableMobile: true
   });
   // Category-wise gallery groups
   const galleryMap = {
