@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ummang Planners – Wedding Planning</title>
+<link rel="stylesheet" href="styles.css">
+
+<link rel="icon" type="image/x-icon" href="/Users/zestgeek-8/work/ummang/images/site-logo.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lg-zoom.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lg-thumbnail.min.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">Ummang <span>Planners</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Book Now</a>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#packages" onclick="toggleMenu()">Packages</a>
+  <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+  <a href="#testimonials" onclick="toggleMenu()">Reviews</a>
+  <a href="#contact" onclick="toggleMenu()">Book Now</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-ornament"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Est. 2015 &nbsp;·&nbsp; Chandigarh, India</div>
+    <h1>Your Dream <em>Wedding</em><br>Our Masterpiece</h1>
+    <p class="hero-tagline">Luxury Wedding Planners</p>
+    <p>From intimate ceremonies to grand celebrations, we craft unforgettable weddings with timeless elegance and meticulous attention to every detail.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Plan Your Wedding</a>
+      <a href="#services" class="btn-outline">Explore Services</a>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <div class="about-img-box" style="background:none;">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80" alt="Ummang Planners Wedding" style="width:100%;height:100%;object-fit:cover;display:block;">
+        </div>
+        <div class="about-frame"></div>
+      </div>
+      <div class="about-text reveal">
+        <div class="section-label">About Us</div>
+        <h2 class="section-title">Creating Moments <em>That Last Forever</em></h2>
+        <div class="section-divider"></div>
+        <p>Ummang Planners is a premium wedding planning company based in Chandigarh, dedicated to transforming your vision into a breathtaking reality. With over a decade of experience, we have crafted hundreds of dream weddings across North India.</p>
+        <p>Our team of passionate professionals handles every detail — from the first consultation to the final dance — ensuring a stress-free and joyful experience for you and your family.</p>
+        <div class="about-stats">
+          <div class="stat-item reveal reveal-delay-1">
+            <div class="stat-num">500+</div>
+            <div class="stat-label">Weddings Planned</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-2">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item reveal reveal-delay-3">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Happy Couples</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section-inner">
+    <div class="services-header reveal">
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Our <em>Services</em></h2>
+      <div class="section-divider"></div>
+      <p style="color:var(--text-light);max-width:520px;margin:0 auto;font-size:0.95rem;line-height:1.8;">Everything you need for a perfect wedding, handled by experts who care as much as you do.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">💍</div>
+        <h3>Full Wedding Planning</h3>
+        <p>End-to-end management of your entire wedding — from venue selection to D-day execution. We handle everything so you enjoy every moment.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">🌸</div>
+        <h3>Decor & Florals</h3>
+        <p>Stunning mandap setups, floral arrangements, lighting design, and themed decor that transforms any venue into a magical space.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">📸</div>
+        <h3>Photography & Video</h3>
+        <p>Capturing every smile, tear, and dance move with cinematic storytelling by our curated team of experienced photographers.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🍽️</div>
+        <h3>Catering & Menu</h3>
+        <p>From traditional Indian feasts to fusion cuisines — we coordinate with top caterers to create a dining experience your guests will rave about.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">🎵</div>
+        <h3>Entertainment</h3>
+        <p>DJs, live bands, mehendi artists, sangeet choreography, and celebrity performers — all curated to match your wedding's vibe and budget.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">🏨</div>
+        <h3>Guest Management</h3>
+        <p>Hotel coordination, invitation design, transportation, and hospitality management ensuring every guest feels special and cared for.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why">
+  <div class="section-inner">
+    <div class="why-grid">
+      <div class="why-text reveal">
+        <div class="section-label">Why Choose Us</div>
+        <h2 class="section-title">We Don't Just Plan Weddings. We <em>Create Memories.</em></h2>
+        <div class="section-divider" style="background:rgba(201,150,58,0.5);"></div>
+        <p>At Ummang Planners, we understand that your wedding day is the most significant milestone of your life. Our dedicated team combines creativity with precision to deliver an experience beyond expectations.</p>
+        <p>We work with a network of trusted vendors across North India, giving you access to the best talent and services — always within your budget.</p>
+      </div>
+      <div class="why-features reveal reveal-delay-1">
+        <div class="why-feature">
+          <div class="why-feat-num">01</div>
+          <div class="why-feat-content">
+            <h4>Personalized Approach</h4>
+            <p>Every wedding is unique. We listen, understand, and craft a plan that reflects your love story.</p>
+          </div>
+        </div>
+        <div class="why-feature">
+          <div class="why-feat-num">02</div>
+          <div class="why-feat-content">
+            <h4>Transparent Pricing</h4>
+            <p>No hidden costs. Detailed budgets and regular updates keep you in full control at all times.</p>
+          </div>
+        </div>
+        <div class="why-feature">
+          <div class="why-feat-num">03</div>
+          <div class="why-feat-content">
+            <h4>24/7 Dedicated Support</h4>
+            <p>Your personal wedding coordinator is just a call away — before, during, and after your wedding.</p>
+          </div>
+        </div>
+        <div class="why-feature">
+          <div class="why-feat-num">04</div>
+          <div class="why-feat-content">
+            <h4>Trusted Vendor Network</h4>
+            <p>500+ vetted vendors across venues, catering, decor, and entertainment — all quality-assured.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="packages" id="packages">
+  <div class="section-inner">
+    <div class="packages-header reveal">
+      <div class="section-label">Pricing</div>
+      <h2 class="section-title">Wedding <em>Packages</em></h2>
+      <div class="section-divider"></div>
+      <p style="color:var(--text-light);max-width:480px;margin:0 auto;font-size:0.9rem;line-height:1.8;">Flexible packages for every kind of celebration. All plans include a dedicated coordinator.</p>
+    </div>
+    <div class="pkg-grid">
+      <div class="pkg-card reveal">
+        <div class="pkg-badge">Silver</div>
+        <div class="pkg-name">Essential</div>
+        <div class="pkg-price">₹1.5L+</div>
+        <div class="pkg-price-note">Starting price · up to 200 guests</div>
+        <div class="pkg-divider"></div>
+        <ul class="pkg-features">
+          <li>Venue Selection Assistance</li>
+          <li>Basic Decor Package</li>
+          <li>Catering Coordination</li>
+          <li>Photography (1 Day)</li>
+          <li>Guest Invitation Design</li>
+          <li>Day-of Coordination</li>
+        </ul>
+        <button class="btn-pkg" onclick="window.open('https://wa.me/919988272507?text=Hi%20Ummang%20Planners!%20%F0%9F%92%8D%0A%0AI%20am%20interested%20in%20your%20*Essential%20Package*%20(Silver%20-%20%E2%82%B91.5L%2B).%0A%0AKindly%20share%20more%20details.%0A%0AThank%20you!','_blank')">Enquire Now</button>
+      </div>
+      <div class="pkg-card featured reveal reveal-delay-1">
+        <div class="pkg-badge inv">Most Popular</div>
+        <div class="pkg-name" style="color:var(--gold-light);">Royal</div>
+        <div class="pkg-price">₹3.5L+</div>
+        <div class="pkg-price-note" style="color:rgba(255,255,255,0.4);">Starting price · up to 500 guests</div>
+        <div class="pkg-divider"></div>
+        <ul class="pkg-features">
+          <li>Premium Venue Booking</li>
+          <li>Full Floral & Decor Design</li>
+          <li>Catering + Menu Curation</li>
+          <li>Photo + Cinematic Video</li>
+          <li>Mehendi & Sangeet Planning</li>
+          <li>Guest Hotel Coordination</li>
+          <li>Entertainment Booking</li>
+          <li>3-Event Full Coverage</li>
+        </ul>
+        <button class="btn-pkg inv" onclick="window.open('https://wa.me/919988272507?text=Hi%20Ummang%20Planners!%20%F0%9F%91%91%0A%0AI%20am%20interested%20in%20your%20*Royal%20Package*%20(Most%20Popular%20-%20%E2%82%B93.5L%2B).%0A%0APlease%20share%20availability%20and%20more%20details.%0A%0AThank%20you!','_blank')">Book This Package</button>
+      </div>
+      <div class="pkg-card reveal reveal-delay-2">
+        <div class="pkg-badge">Gold</div>
+        <div class="pkg-name">Bespoke</div>
+        <div class="pkg-price">Custom</div>
+        <div class="pkg-price-note">Tailored for destination & luxury weddings</div>
+        <div class="pkg-divider"></div>
+        <ul class="pkg-features">
+          <li>Destination Wedding Planning</li>
+          <li>Luxury Decor & Design</li>
+          <li>Celebrity Entertainment</li>
+          <li>International Vendors</li>
+          <li>VIP Guest Management</li>
+          <li>Complete A to Z Service</li>
+        </ul>
+        <button class="btn-pkg" onclick="window.open('https://wa.me/919988272507?text=Hi%20Ummang%20Planners!%20%E2%9C%A8%0A%0AI%20am%20interested%20in%20a%20*Bespoke%2FDestination%20Wedding*%20package.%0A%0AI%20would%20love%20to%20discuss%20a%20customized%20plan.%0A%0AThank%20you!','_blank')">Let's Talk</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="section-inner">
+    <div class="gallery-header reveal">
+      <div class="section-label">Our Work</div>
+      <h2 class="section-title">Wedding <em>Gallery</em></h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item" data-category="mandap">
+        <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=900&q=80" alt="Grand Mandap Decor" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <div class="gallery-item-inner">
+          <div class="gallery-label">Grand Mandap Decor</div>
+        </div>
+      </div>
+      <div id="lg-mandap" style="display:none;">
+        <a href="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=1600&q=90" data-src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=1600&q=90" data-sub-html="<h4>Grand Mandap Decor — 1</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=240&q=80" alt="Mandap Setup"></a>
+        <a href="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=1600&q=90" data-src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=1600&q=90" data-sub-html="<h4>Grand Mandap Decor — 2</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=240&q=80" alt="Floral Mandap"></a>
+        <a href="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1600&q=90" data-src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1600&q=90" data-sub-html="<h4>Grand Mandap Decor — 3</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=240&q=80" alt="Wedding Ceremony"></a>
+        <a href="https://images.unsplash.com/photo-1519741497674-611481863552?w=1600&q=90" data-src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1600&q=90" data-sub-html="<h4>Grand Mandap Decor — 4</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=240&q=80" alt="Bridal Stage"></a>
+        <a href="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1600&q=90" data-src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1600&q=90" data-sub-html="<h4>Grand Mandap Decor — 5</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=240&q=80" alt="Decor Detail"></a>
+      </div>
+      <div class="gallery-item" data-category="candle">
+        <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=80" alt="Candlelight Ceremony" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <div class="gallery-item-inner">
+          <div class="gallery-label">Candlelight Ceremony</div>
+        </div>
+      </div>
+      <div id="lg-candle" style="display:none;">
+        <a href="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1600&q=90" data-src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1600&q=90" data-sub-html="<h4>Candlelight Ceremony — 1</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=240&q=80" alt="Candlelight Setup"></a>
+        <a href="https://images.unsplash.com/photo-1510751638380-5df0a3b42823?w=1600&q=90" data-src="https://images.unsplash.com/photo-1510751638380-5df0a3b42823?w=1600&q=90" data-sub-html="<h4>Candlelight Ceremony — 2</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1510751638380-5df0a3b42823?w=240&q=80" alt="Evening Lights"></a>
+        <a href="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1600&q=90" data-src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1600&q=90" data-sub-html="<h4>Candlelight Ceremony — 3</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=240&q=80" alt="Venue Decor"></a>
+        <a href="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1600&q=90" data-src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1600&q=90" data-sub-html="<h4>Candlelight Ceremony — 4</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=240&q=80" alt="Night Ceremony"></a>
+        <a href="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1600&q=90" data-src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1600&q=90" data-sub-html="<h4>Candlelight Ceremony — 5</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=240&q=80" alt="Table Setting"></a>
+      </div>
+      <div class="gallery-item" data-category="floral">
+        <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600&q=80" alt="Floral Arrangements" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <div class="gallery-item-inner">
+          <div class="gallery-label">Floral Arrangements</div>
+        </div>
+      </div>
+      <div id="lg-floral" style="display:none;">
+        <a href="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=1600&q=90" data-src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=1600&q=90" data-sub-html="<h4>Floral Arrangements — 1</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=240&q=80" alt="Bridal Bouquet"></a>
+        <a href="https://images.unsplash.com/photo-1487530811015-780780fee55e?w=1600&q=90" data-src="https://images.unsplash.com/photo-1487530811015-780780fee55e?w=1600&q=90" data-sub-html="<h4>Floral Arrangements — 2</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1487530811015-780780fee55e?w=240&q=80" alt="Flower Decor"></a>
+        <a href="https://images.unsplash.com/photo-1561128290-005b94e0b0b1?w=1600&q=90" data-src="https://images.unsplash.com/photo-1561128290-005b94e0b0b1?w=1600&q=90" data-sub-html="<h4>Floral Arrangements — 3</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1561128290-005b94e0b0b1?w=240&q=80" alt="Rose Arrangement"></a>
+        <a href="https://images.unsplash.com/photo-1508610048659-a06b669e3321?w=1600&q=90" data-src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?w=1600&q=90" data-sub-html="<h4>Floral Arrangements — 4</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?w=240&q=80" alt="Floral Stage"></a>
+        <a href="https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?w=1600&q=90" data-src="https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?w=1600&q=90" data-sub-html="<h4>Floral Arrangements — 5</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?w=240&q=80" alt="Centerpiece"></a>
+      </div>
+      <div class="gallery-item" data-category="sangeet">
+        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600&q=80" alt="Sangeet Night" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <div class="gallery-item-inner">
+          <div class="gallery-label">Sangeet Night</div>
+        </div>
+      </div>
+      <div id="lg-sangeet" style="display:none;">
+        <a href="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1600&q=90" data-src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1600&q=90" data-sub-html="<h4>Sangeet Night — 1</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=240&q=80" alt="Dance Floor"></a>
+        <a href="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1600&q=90" data-src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1600&q=90" data-sub-html="<h4>Sangeet Night — 2</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=240&q=80" alt="Live Music"></a>
+        <a href="https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=1600&q=90" data-src="https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=1600&q=90" data-sub-html="<h4>Sangeet Night — 3</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=240&q=80" alt="Party Lights"></a>
+        <a href="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=1600&q=90" data-src="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=1600&q=90" data-sub-html="<h4>Sangeet Night — 4</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=240&q=80" alt="Celebration"></a>
+        <a href="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1600&q=90" data-src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1600&q=90" data-sub-html="<h4>Sangeet Night — 5</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=240&q=80" alt="Evening Party"></a>
+      </div>
+      <div class="gallery-item" data-category="reception">
+        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=80" alt="Reception Celebrations" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <div class="gallery-item-inner">
+          <div class="gallery-label">Reception Celebrations</div>
+        </div>
+      </div>
+      <div id="lg-reception" style="display:none;">
+        <a href="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1600&q=90" data-src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1600&q=90" data-sub-html="<h4>Reception Celebrations — 1</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=240&q=80" alt="Grand Reception"></a>
+        <a href="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1600&q=90" data-src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1600&q=90" data-sub-html="<h4>Reception Celebrations — 2</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=240&q=80" alt="Banquet Hall"></a>
+        <a href="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=1600&q=90" data-src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=1600&q=90" data-sub-html="<h4>Reception Celebrations — 3</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=240&q=80" alt="Reception Dinner"></a>
+        <a href="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=1600&q=90" data-src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=1600&q=90" data-sub-html="<h4>Reception Celebrations — 4</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=240&q=80" alt="Couple Dance"></a>
+        <a href="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1600&q=90" data-src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1600&q=90" data-sub-html="<h4>Reception Celebrations — 5</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=240&q=80" alt="Celebration Lights"></a>
+      </div>
+      <div class="gallery-item" data-category="ring">
+        <img src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=600&q=80" alt="Ring Ceremony" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <div class="gallery-item-inner">
+          <div class="gallery-label">Ring Ceremony</div>
+        </div>
+      </div>
+      <div id="lg-ring" style="display:none;">
+        <a href="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=1600&q=90" data-src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=1600&q=90" data-sub-html="<h4>Ring Ceremony — 1</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=240&q=80" alt="Ring Exchange"></a>
+        <a href="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=1600&q=90" data-src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=1600&q=90" data-sub-html="<h4>Ring Ceremony — 2</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=240&q=80" alt="Wedding Rings"></a>
+        <a href="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1600&q=90" data-src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1600&q=90" data-sub-html="<h4>Ring Ceremony — 3</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=240&q=80" alt="Engagement"></a>
+        <a href="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1600&q=90" data-src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1600&q=90" data-sub-html="<h4>Ring Ceremony — 4</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=240&q=80" alt="Ring Detail"></a>
+        <a href="https://images.unsplash.com/photo-1519741497674-611481863552?w=1600&q=90" data-src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1600&q=90" data-sub-html="<h4>Ring Ceremony — 5</h4><p>Ummang Planners</p>"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=240&q=80" alt="Couple Moment"></a>
+      </div>
+
+    </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="section-inner">
+    <div class="testimonials-header reveal">
+      <div class="section-label">What Couples Say</div>
+      <h2 class="section-title">Love <em>Stories</em> & Reviews</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Ummang Planners turned our dream wedding into the most magical day of our lives. Every detail was perfect — from the stunning decor to the flawless coordination."</div>
+        <div class="testi-author">
+          <div class="testi-avatar">RK</div>
+          <div>
+            <div class="testi-name">Riya & Karan Malhotra</div>
+            <div class="testi-loc">Chandigarh Wedding, 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal reveal-delay-1">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"The team at Ummang was absolutely incredible. They handled everything with such grace and professionalism. Our guests are still talking about the wedding!"</div>
+        <div class="testi-author">
+          <div class="testi-avatar">PS</div>
+          <div>
+            <div class="testi-name">Priya & Sahil Sharma</div>
+            <div class="testi-loc">Delhi Destination Wedding, 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal reveal-delay-2">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"From the first meeting to the last dance, Ummang Planners was there every step of the way. Worth every rupee — a truly royal experience!"</div>
+        <div class="testi-author">
+          <div class="testi-avatar">AV</div>
+          <div>
+            <div class="testi-name">Anjali & Vikram Nanda</div>
+            <div class="testi-loc">Amritsar Wedding, 2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Start Planning Your <em>Dream Day</em></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p>We'd love to hear about your vision. Fill out the form or reach us directly — our team will get back to you within 24 hours.</p>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="contact-detail-text">
+            <strong>Our Office</strong>
+            CDCL Building Sector 28,<br> Chandigarh, India – 160002
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="contact-detail-text">
+            <strong>Call / WhatsApp</strong>
+            <a href="tel:9988272507" target="_blank" style="color:#E4B96A;text-decoration:none;">
+                            +91 99882 72507</a>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="contact-detail-text">
+            <strong>Email Us</strong>
+            <a href="https://mail.google.com/mail/?view=cm&to=UmmangPlanners@gmail.com&su=Wedding+Enquiry+-+Ummang+Planners&body=Hello+Ummang+Planners,%0A%0AI+am+interested+in+your+wedding+planning+services.+Kindly+get+in+touch+with+me.%0A%0AThank+you!" target="_blank" style="color:#E4B96A;text-decoration:none;">UmmangPlanners@gmail.com</a>
+          </div>
+        </div>
+        <a href="https://wa.me/919988272507?text=Hi%20Ummang%20Planners%2C%20I%20want%20to%20plan%20my%20wedding!" class="whatsapp-btn" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <form class="contact-form" id="enquiryForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" id="field_name" placeholder="Bride / Groom Name" required>
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" id="field_phone" placeholder="+91 XXXXX XXXXX" pattern="[0-9+\s\-]{8,15}" inputmode="numeric" maxlength="10" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="field_email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Wedding Date</label>
+              <input type="text" id="field_date" placeholder="01-01-2026">
+            </div>
+            <div class="form-group">
+              <label>Expected Guests</label>
+              <select id="field_guests">
+                <option value="">Select range</option>
+                <option>Less than 100</option>
+                <option>100 – 300</option>
+                <option>300 – 500</option>
+                <option>500 – 1000</option>
+                <option>1000+</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Tell Us About Your Dream Wedding</label>
+            <textarea rows="4" id="field_message" placeholder="Share your vision, theme ideas, venue preferences..."></textarea>
+          </div>
+          <button type="submit" class="form-submit" id="submitBtn">Send Enquiry →</button>
+          <div class="form-success" id="formSuccess">
+            ✓ Thank you! Your enquiry has been received. We will contact you within 24 hours.
+          </div>
+          <div class="form-error" id="formError" style="display:none;background:rgba(200,50,50,0.15);border:1px solid rgba(200,50,50,0.3);color:#ffaaaa;padding:1rem;font-size:0.88rem;text-align:center;margin-top:0.5rem;">
+            ✗ Something went wrong. Please check your details and try again..
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Ummang Planners</div>
+  <div class="footer-tagline">Crafting Love Stories Since 2015</div>
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#packages">Packages</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-copy">© 2026 Ummang Planners. All Rights Reserved. Chandigarh, India.</div>
+  <div class="footer-social-links">
+    <ul>
+      <li><a href="https://www.facebook.com/urboynishu" target="_blank" style="color:#E4B96A;text-decoration:none;"><i class="fa-brands fa-facebook-f"></i></a></li>
+
+      <li><a href="https://mail.google.com/mail/?view=cm&to=UmmangPlanners@gmail.com&su=Wedding+Enquiry+-+Ummang+Planners&body=Hello+Ummang+Planners,%0A%0AI+am+interested+in+your+wedding+planning+services.+Kindly+get+in+touch+with+me.%0A%0AThank+you!" target="_blank" style="color:#E4B96A;text-decoration:none;"><i class="fa-solid fa-envelope"></i></a></li>
+
+      <li><a href="https://wa.me/919988272507?text=Hi%20Ummang%20Planners%2C%20I%20want%20to%20plan%20my%20wedding!" target="_blank" style="color:#E4B96A;text-decoration:none;"><i class="fa-brands fa-whatsapp"></i></a></li>
+
+      <li><a href="https://www.instagram.com/ummang_planners/" target="_blank" style="color:#E4B96A;text-decoration:none;"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </div>
+</footer>
+
+
+<script src="https://kit.fontawesome.com/5b2ad0f8cd.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
