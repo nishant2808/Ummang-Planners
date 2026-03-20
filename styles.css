@@ -61,8 +61,13 @@
     text-decoration: none;
   }
   .nav-cta:hover { background: var(--gold); color: var(--maroon-dark); }
-  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
-  .hamburger span { width: 24px; height: 1.5px; background: var(--gold-light); display: block; transition: 0.3s; }
+  .hamburger .fa-bars-staggered,
+  .hamburger .fa-xmark{
+    display: none;
+    color:var(--gold-light);
+    transition: 0.3s;
+    font-size: 30px;
+  }
 
   /* ─── HERO ─── */
   .hero {
@@ -578,11 +583,19 @@
     padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.06);
   }
 
+  /*social icon css start*/
+
+  .whatsapp-btn i.fa-brands.fa-whatsapp {
+    font-size: 26px;
+  }
+
+  /*social icon css end*/
 
 
 
 
-/*slider*/
+
+/*gallery slider popup css start*/
 .lg-download,
 .lg-zoom-out,
 .lg-zoom-in {
@@ -667,25 +680,21 @@ button.lg-prev::after {
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
 }
-/*slider*/
-
-
-
-
-
-
-
-
-
-
-
-
+/*gallery slider popup css start*/
 
 
   /* ─── RESPONSIVE ─── */
   @media (max-width: 768px) {
     .nav-links, .nav-cta { display: none; }
-    .hamburger { display: flex; }
+    .hamburger .fa-bars-staggered{
+      display: flex;
+    }
+    .hamburger.active .fa-bars-staggered{
+      display: none;
+    }
+    .hamburger.active .fa-xmark{
+      display: flex;
+    }
     .about-grid, .why-grid, .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
     .about-img-wrap { height: 300px; }
     .gallery-grid { grid-template-columns: 1fr 1fr; }
