@@ -1,5 +1,6 @@
 function toggleMenu() {
   document.getElementById('mobileMenu').classList.toggle('open');
+  document.getElementById('hamburger').classList.toggle('active');
 }
 
 // ─── EMAILJS CONFIG ────────────────────────────────────────
@@ -73,7 +74,7 @@ window.addEventListener('scroll', () => {
   flatpickr("#field_date", {
     dateFormat: "d-m-Y",
     minDate: "today",
-    disableMobile: true
+    disableMobile: false
   });
   // Category-wise gallery groups
   const galleryMap = {
