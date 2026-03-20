@@ -648,6 +648,25 @@ button.lg-prev::after {
     font-weight: 900;
     font-size: 20px;
 }
+.lg-outer .lg-thumb-outer {
+    background-color: #fff !important;
+}
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+    border-color: var(--gold) !important;
+}
+.lg-outer {
+    border-radius: 4px;
+    margin: 15px auto;
+    max-width: 80%;
+    min-width: min-content;
+    padding: 80px;
+    width: calc(100% - 30px) !important;
+    max-height: 95% !important;
+    height: 100vh !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
 /*slider*/
 
 
